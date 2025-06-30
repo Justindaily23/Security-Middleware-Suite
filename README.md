@@ -27,29 +27,34 @@
 
 - ESM (type: module)
 
-# 📁 Project Structure
+## 🗂 Project Structure
 
+```
 Security-Middleware-Suite/
-│--- Logs # Ignored in Git (runtime logs)
+│
 ├── src/
-│  
-│ ├── middleware/
-│ │ └── security.middleware.js # All security middleware
-│ └── utils/
-│ └── logger.js # Winston logger config
-|\_\_ getEnvVar.js # Environmental variables
+│   ├── app.js
+│   ├── middlewares/
+│   │   └── security.middleware.js
+│   ├── utils/
+│   │   └── logger.js
+    |   |-  getEnvVar.js
+    |---app.js
+    |--- server.js
 │
-
-│
-├── .env # Environment variables
+├── logs/
+├── .env
 ├── .gitignore
-└── README.md
+├── README.md
+├── package.json
+└── package-lock.json
+```
 
 # Usage
 
 **_ Clone the repo _**
 
-- git clone https://github.com/your-username/Security-Middleware-Suite.git
+- git clone https://github.com/Justindaily23/Security-Middleware-Suite.git
   cd Security-Middleware-Suite
 
 # Install dependencies
