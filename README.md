@@ -1,4 +1,4 @@
-**_ A production-grade Express.js security middleware suite, implementing real-world best practices to protect your API from common web vulnerabilities. _**
+**_ An Express.js security middleware suite, implementing real-world best practices to protect your API from common web vulnerabilities. _**
 
 # Features Included
 
